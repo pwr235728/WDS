@@ -132,6 +132,7 @@ int main(void)
 	  MPU6050_Read_Accelerometer(&mpu, accel_axes);
 	  HAL_GPIO_TogglePin(LED_GPIO_Port, LED_Pin);
 	  HAL_Delay(100);
+	  HAL_GetTick()
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
