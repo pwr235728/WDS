@@ -50,6 +50,12 @@ typedef enum{
 	MPU6050_SampleRate_8KHz		= 0
 }MPU6050_SampleRate;
 
+typedef enum{
+	MPU6050_InterruptFlag_FIFO_OFLOW_EN = 0x10,
+	MPU6050_InterruptFlag_I2C_MST_INT_EN = 0x08,
+	MPU6050_InterruptFlag_DATA_RDY_EN = 0x01
+}MPU6050_InterruptFlag;
+
 typedef struct
 {
 	MPU6050_Device device;
@@ -74,4 +80,6 @@ MPU6050_Status MPU6050_Set_Accelerometer(mpu6050_t *hmpu, MPU6050_Accelerometer 
 MPU6050_Status MPU6050_Set_Gyroscope(mpu6050_t *hmpu, MPU6050_Gyroscope gyroscope);
 
 MPU6050_Status MPU6050_Read_Accelerometer(mpu6050_t *hmpu, int16_t data_out[]);
+
+MPU6050_Status MPU6050_Interrupt_Set(mpu6050_t *hmpu, MPU6050_InterruptFlag int_flag);
 #endif /* MPU6050_H_ */

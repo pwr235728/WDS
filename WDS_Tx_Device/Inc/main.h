@@ -80,6 +80,13 @@ void Error_Handler(void);
 /* Private defines -----------------------------------------------------------*/
 #define LED_Pin GPIO_PIN_13
 #define LED_GPIO_Port GPIOC
+#define mpu6050_irq_Pin GPIO_PIN_0
+#define mpu6050_irq_GPIO_Port GPIOA
+#define mpu6050_irq_EXTI_IRQn EXTI0_IRQn
+#define NRF24_CSN_Pin GPIO_PIN_3
+#define NRF24_CSN_GPIO_Port GPIOA
+#define NRF24_CE_Pin GPIO_PIN_4
+#define NRF24_CE_GPIO_Port GPIOA
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */
