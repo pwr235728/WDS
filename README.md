@@ -7,13 +7,13 @@ To repozytorium zawiera część z kontrolerem
 Kontroler umożliwia wykrywanie swojej orientacji przestrzennej . 
 Kontroler jest urządzeniem bezprzewodowym i komunikującym się z odbiornikiem podłączonym do komputera.
 Kontroler jest wyposażony w:
-• Mikrokontroler STM32
-• Akcelerometr z żyroskopem
-• Moduł radiowy
-• Przyciski
-• Baterię
+* Mikrokontroler STM32
+* Akcelerometr z żyroskopem
+* Moduł radiowy
+* Przyciski
+* Baterię
 Odbiornik składa się z:
-• Mikrokontroler STM32 komunikujący się z PC
-• Moduł radiowy  
+* Mikrokontroler STM32 komunikujący się z PC
+* Moduł radiowy  
   
 
