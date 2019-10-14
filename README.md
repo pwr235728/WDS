@@ -3,6 +3,10 @@
 Projekt składa się z dwóch części: kontrolera bezprzewodowego wraz z odbiornikiem
 oraz aplikacji komunikującej się z kontrolerem.
 To repozytorium zawiera część z kontrolerem
+
+### Aplikacja:
+https://github.com/pwr235728/WDS_6dof_app
+
 ###  Kontroler
 Kontroler umożliwia wykrywanie swojej orientacji przestrzennej . 
 Kontroler jest urządzeniem bezprzewodowym i komunikującym się z odbiornikiem podłączonym do komputera.
